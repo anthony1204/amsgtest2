@@ -8,6 +8,7 @@ import { Toaster,toast } from "react-hot-toast";
 import ResetMessages from "../_utils/ResetMessages";
 
 // the user data will be retrieved server side
+export const runtime = 'edge';
 export default async function Profile() {
     //start checking tokens
     const cookieStore = cookies();
