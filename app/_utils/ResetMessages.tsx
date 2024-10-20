@@ -9,7 +9,7 @@ export default function ResetMessages() {
     const router = useRouter()
 
     const onLogout = async () => {
-            const code = document.getElementById("code")?.value
+            const code = (document.getElementById("cod") as HTMLInputElement)?.value;
             const response = await fetch('/api/cam', {
                 method: 'POST',
                 headers: {'password':code+""}
