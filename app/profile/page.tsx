@@ -5,6 +5,7 @@ import LogoutButton from "@/app/_utils/LogoutButton";
 import PasskeyList from "@/app/_utils/PasskeyList";
 
 // the user data will be retrieved server side
+export const runtime = 'edge';
 export default async function Profile() {
     const cookieStore = cookies();
     const sessionToken = cookieStore.get("cbo_session_token");
