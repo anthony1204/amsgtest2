@@ -7,14 +7,12 @@ export default function Auth() {
 
     const router = useRouter()
     const onLoggedIn = () => {
-        router.push("/dashboard")
+        router.push("/profile")
     }
 
     return (
-        <body background-color="#40822e">
         <div>
             <CorbadoAuth onLoggedIn={onLoggedIn} />
         </div>
-        </body>
     )
 }

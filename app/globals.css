@@ -21,7 +21,6 @@ body {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #40822e;
 }
 a {
   color: blue;
@@ -64,21 +63,4 @@ button:hover {
 .Auth {
   display: flex;
   justify-content: center;
-}
-.bg {
-  background-color: #40822e;
-}
-input {
-  margin-right: 50px;
-}
-#msgiframe {
-  width: 550px;
-  height: 200px;
-}
-#namein {
-  width: 100px;
-  margin-bottom: 10px
-}
-#msgin {
-  width: 500px;
 }
