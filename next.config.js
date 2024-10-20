@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "standalone",
+    output: "export",
     env: {
       CORBADO_API_SECRET: process.env.CORBADO_API_SECRET,
     },
